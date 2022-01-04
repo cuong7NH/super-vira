@@ -1,0 +1,21 @@
+.tparrows {
+    display: none !important;
+}
+@media screen and (max-width: 576px) {
+    .extend-serv-box {
+        margin-top: 30px !important;
+    }
+}
+
+.tp-caption {
+    max-width: 99vw;
+    margin: 0 30px !important;
+}
+
+/*over ride color section "khách hàng nói gì?" */
+.testi-box.schm-14:hover:before, .testi-box.schm-14 .testi-info + p:before {
+    background-color: var(--color17);
+}
+ li.slick-active button{
+    border-color: var(--color17) !important;
+}
