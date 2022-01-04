@@ -679,7 +679,7 @@
 	  });
 
 	  //=== Testimonials Carousel 2 ===//
-	  $('.testi-caro2').slick({
+		$('.testi-caro2').slick({
 		arrows: false,
 		initialSlide: 0,
 		infinite: true,

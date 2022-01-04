@@ -18,10 +18,10 @@
 
 }
 
-@media (max-width: 1370px) {
+@media (max-width: 1369px) {
 .pt-200 {padding-top: 10rem;}
 .pb-200 {padding-bottom: 10rem;}
-.img-layer {display: none !important;}
+.img-layer, .img-layer2 {display: none !important;}
 .portfl-wrap.v2 .col-lg-6 .col-lg-12 .portfl-item {min-height: 19.6rem;max-height: 19.6rem;}
 
 
