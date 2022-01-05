@@ -6,10 +6,16 @@
         margin-top: 30px !important;
     }
 }
-
-.tp-caption {
-    max-width: 99vw;
-    margin: 0 30px !important;
+.tp-caption-br {
+    display: none;
+}
+@media screen and (max-width: 490px) {
+    .tp-caption-br {
+        display: block;
+    }
+    .tp-caption-decs {
+        margin-top: 30px;
+    }
 }
 
 /*over ride color section "khách hàng nói gì?" */
